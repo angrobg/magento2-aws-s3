@@ -31,12 +31,13 @@ Installation
 ------------
 Run following command
 
-    composer config repositories.magento2-s3 vcs https://github.com/4dhk/magento2-s3
-    composer require arkade/magento2-s3:dev-master
-    php bin/magento module:enable ST_AwsS3
-    php bin/magento setup:upgrade
+```bash
+composer require shinetech/module-aws-s3
+php bin/magento module:enable ST_AwsS3
+php bin/magento setup:upgrade
+```
 
-Go to Stores -> Configuration -> ARKADE EXTENSIONS, enter s3 information.
+Go to Stores -> Configuration -> Shinetech EXTENSIONS, enter s3 information.
 
 Go to Stores -> Configuration -> Advanced -> System -> Media Storage, change to Amazon S3 and press Synchronize.
 
@@ -45,9 +46,9 @@ Go to Stores -> Configuration -> General -> Web. Change the Base URL for User Me
 Support
 -------
 
-We have a [Troubleshooting](https://github.com/arkadedigital/magento2-s3/wiki/Troubleshooting) page on our wiki that we'll keep up to date with any issues that the community might have with the extension.
+We have a [Troubleshooting](https://github.com/shinetechmagento/magento2-aws-s3/wiki/Troubleshooting) page on our wiki that we'll keep up to date with any issues that the community might have with the extension.
 
-If you can't find the answer you're looking for, however, feel free to [create a GitHub issue](https://github.com/arkadedigital/magento2-s3/issues/new) or [send us an email](mailto:support@arkade.com.au) for support regarding this extension.
+If you can't find the answer you're looking for, however, feel free to [create a GitHub issue](https://github.com/shinetechmagento/magento2-aws-s3/issues/new) or [send us an email](mailto:sunf@shinetechsoftware.com) for support regarding this extension.
 
 ### Does this extension upload my log files?
 
