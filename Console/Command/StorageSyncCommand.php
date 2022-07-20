@@ -47,7 +47,7 @@ class StorageSyncCommand extends \Symfony\Component\Console\Command\Command
     /**
      * {@inheritdoc}
      */
-    protected function execute(
+    public function execute(
         InputInterface $input,
         OutputInterface $output
     ) {
@@ -58,7 +58,7 @@ class StorageSyncCommand extends \Symfony\Component\Console\Command\Command
         );
     }
 
-    protected function process(InputInterface $input, OutputInterface $output)
+    public function process(InputInterface $input, OutputInterface $output)
     {
         $errors = $this->validate($input);
         if ($errors) {
