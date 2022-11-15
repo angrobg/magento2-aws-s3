@@ -1,6 +1,7 @@
 {
     "name": "shinetech/module-aws-s3",
     "description": "Use Amazon S3 as the file storage backend for your store.",
+    "version": "999.0.0",
     "type": "magento2-module",
     "license": "MIT",
     "authors": [
